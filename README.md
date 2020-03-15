@@ -3,5 +3,5 @@ Here is a script to delete backups of your FileMaker Backup folder; in other wor
 
 Sample crontab offline backup method
 ```Shell
-5 * * * * /usr/bin/rsync -av /mnt/backup/fm18s00/* /home/backup/FM18S00/ && /usr/bin/chown -R backup:staff /home/backup/FM* && /usr/bin/chmod -R 760 /home/backup/FM*
+5 * * * * /usr/bin/rsync -av backup@fm18s00:/Library/FileMaker Server/Data/Backups/* /home/backup/FM18S00/ && /usr/bin/chown -R backup:staff /home/backup/FM* && /usr/bin/chmod -R 760 /home/backup/FM*
 ```
