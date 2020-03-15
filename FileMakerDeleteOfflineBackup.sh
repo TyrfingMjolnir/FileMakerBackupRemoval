@@ -1,5 +1,5 @@
 #!/bin/bash
-# Written by Gjermund Gusland Thorsen 1998 - Published in 2020; after upgrade from expr to $(())
+# Written by Gjermund Gusland Thorsen 1998 - Published in 2020; after upgrade from FM14 to FM18 and expr to $(())
 
 #Keep instances of
 keepHourly=23
