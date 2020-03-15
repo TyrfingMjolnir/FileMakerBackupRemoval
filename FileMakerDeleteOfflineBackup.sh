@@ -18,7 +18,7 @@ for P in FM18S00; do
     echo "Hourly"
     hc=0
     for D in Hourly_*; do
-        if [ $hc -gt $(( $h - $keepHourly - 1 )) ] # Keep latter 23 hours of the Hourly_* backups
+        if [ $hc -gt $(( $h - $keepHourly - 1 )) ] # Keep latter $keepHourly hours of the Hourly_* backups
         then
             echo "Keep $hc $D"
         else
@@ -31,7 +31,7 @@ for P in FM18S00; do
     echo "Daily"
     dc=0
     for D in Daily_*; do
-        if [ $dc -gt $(( $d - $keepDaily - 1 )) ] # Keep latter 5 days of Daily_* backups
+        if [ $dc -gt $(( $d - $keepDaily - 1 )) ] # Keep latter $keepDaily days of Daily_* backups
         then
             echo "Keep $dc $D"
         else
