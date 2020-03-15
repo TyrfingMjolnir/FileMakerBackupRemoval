@@ -18,7 +18,7 @@ for P in FM18S00; do
     echo "Hourly"
     hc=0
     for D in Hourly_*; do
-        if [ $hc -gt $(( $h - $keepHourly - 1 )) ] # Keep latter 24 hours of the Hourly_* backups
+        if [ $hc -gt $(( $h - $keepHourly - 1 )) ] # Keep latter 23 hours of the Hourly_* backups
         then
             echo "Keep $hc $D"
         else
