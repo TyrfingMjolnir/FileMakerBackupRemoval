@@ -4,7 +4,7 @@
 #Keep instances of
 keepHourly=23
 keepDaily=5
-keepWeekly=5 implemented on !gh, as a copy of Daily.
+keepWeekly=52 implemented on !gh, as a copy of Daily.
 
 cd /Volumes/backup/
 for P in FM18S00; do
