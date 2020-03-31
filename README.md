@@ -1,5 +1,5 @@
 # File Maker Backup Backup Removal
-Here is a script to delete backups of your FileMaker Backup folder; in other words curating your offline backup.
+Here is a script to delete backups from your offline FileMaker Backup folder; in other words curating your offline backup.
 
 Sample crontab offline backup method
 ```Shell
