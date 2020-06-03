@@ -1,7 +1,9 @@
 # FileMaker Backup Backup Removal
 Here is a script to delete backups from your offline FileMaker Backup folder; in other words curating your offline backup.
 
-This is how I do offline backups `/usr/bin/rsync -av backup@fm18s00:/Library/FileMaker Server/Data/Backups/* /home/backup/fm18s00/`
+This is how I do offline backups ```
+/usr/bin/rsync -av backup@fm18s00:/Library/FileMaker Server/Data/Backups/* /home/backup/fm18s00/
+```
 
 Written by Gjermund Gusland Thorsen 1998 - Published in 2020; after upgrade from FM14 to FM18 and `expr` to `$(())`
 
