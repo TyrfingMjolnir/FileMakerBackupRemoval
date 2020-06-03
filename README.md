@@ -1,6 +1,8 @@
 # FileMaker Backup Backup Removal
 Here is a script to delete backups from your offline FileMaker Backup folder; in other words curating your offline backup.
 
+Written by Gjermund Gusland Thorsen 1998 - Published in 2020; after upgrade from FM14 to FM18 and expr to $(())
+
 During this time there has been different approaches to offlining the backups; `netatalk`, `samba` / `CIFS`, `NFS`, `scp`, `rsync`. If your server is on a Windows machine, simply turn on file sharing for the `Data/Backups`-folder and mount that folder on a system of your liking.
 
 Sample crontab offline backup method
