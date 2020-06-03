@@ -6,7 +6,7 @@ This is how I do offline backups
 /usr/bin/rsync -av backup@fm18s00:/Library/FileMaker Server/Data/Backups/* /home/backup/fm18s00/
 ```
 
-Notice the `-v` is there only for manually checking what is going on.
+Notice the `-v` is there only for manually checking what is going on. Depending on how much you would like to be logged, you may or may not want to use `-v` in your script scheduler.
 
 Written by Gjermund Gusland Thorsen 1998 - Published in 2020; after upgrade from FM14 to FM18 and `expr` to `$(())`
 
